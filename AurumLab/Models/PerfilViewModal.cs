@@ -16,5 +16,8 @@ namespace AurumLab.Models
 
         public String? FotoBase64 {get; set;} //* Como converter o formato da foto
 
+        public string? FotoFinal => FotoBase64 != null ? $"data:imagem/*;base64,{FotoBase64}" : "/assets/img/img-perfil.png";
+
+
     }
 }
