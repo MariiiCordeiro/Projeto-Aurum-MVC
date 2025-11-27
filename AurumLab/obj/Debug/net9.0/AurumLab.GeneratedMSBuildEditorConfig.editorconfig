@@ -32,8 +32,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/39318099860/Desktop/ProjetoAurumMvc/AurumLab/Views/Dashboard/Dashborad.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib3JhZC5jc2h0bWw=
+[C:/Users/39318099860/Desktop/ProjetoAurumMvc/AurumLab/Views/Dashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/39318099860/Desktop/ProjetoAurumMvc/AurumLab/Views/Home/Index.cshtml]
@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/39318099860/Desktop/ProjetoAurumMvc/AurumLab/Views/Login/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/39318099860/Desktop/ProjetoAurumMvc/AurumLab/Views/Perfil/perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsXHBlcmZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/39318099860/Desktop/ProjetoAurumMvc/AurumLab/Views/_ViewImports.cshtml]
