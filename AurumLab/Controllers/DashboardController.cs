@@ -71,7 +71,10 @@ namespace AurumLab.Controllers
         { //*usuario?.NomeUsuario -> Se o usuario noa for null, entao pegue NomeUsuario (nome que esta no banco)
           //* ?? "Usuario" -> senao, se for for null retorne "Usuarios" como nome por padrao
             NomeUsuario = usuario?.NomeUsuario ?? "Usuário",
-            FotoUsuario = "/assests/img/img-perfil.png",
+            // FotoUsuario = "/assests/img/img-perfil.png",
+            FotoUsuario = usuario?.Foto != null
+                ? $"data:image/*;base64,{Convert.ToBase64String(usuario.Foto)}"
+                : "/assests/img/img-perfil.png",
 
             TotalDispositivos = _context.Dispositivos.Count(),
             TotalAtivos = _context.Dispositivos.Count(dispositivos => dispositivos.SituacaoOperacional == "Operando"),
